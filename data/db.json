@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "email": "test@example.com",
+      "passwordHash": "$2b$10$wlTubahhp7aVqslpuJ7c4eIPe4vIl3dGeKMMrrwE/5QQV1r9uoRZa",
+      "name": "Test User",
+      "id": "r8xny6jix",
+      "createdAt": "2026-07-14T09:24:31.292Z"
+    },
+    {
+      "email": "a@gmail.com",
+      "passwordHash": "$2b$10$.996XI5FBiw9Ea9ntplbG.uKk9Bi2pcF26Bhxp4G.0LRjrRzupgpe",
+      "name": "a",
+      "id": "hx1oyn8ge",
+      "createdAt": "2026-07-14T09:29:52.958Z"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Test Task",
+      "description": "This is a test description",
+      "status": "execution",
+      "dueDate": "2026-07-15",
+      "priority": "medium",
+      "assignee": "Test User",
+      "subtasks": [],
+      "id": "i7mtrncx4",
+      "userId": "r8xny6jix",
+      "createdAt": "2026-07-14T09:25:07.906Z",
+      "updatedAt": "2026-07-14T09:25:44.698Z"
+    },
+    {
+      "title": "New Task",
+      "description": "Finish a basic application\nAn end to end task manager\n",
+      "status": "archived",
+      "dueDate": "2026-07-15",
+      "priority": "medium",
+      "assignee": "a",
+      "subtasks": [],
+      "id": "xad3poczt",
+      "userId": "hx1oyn8ge",
+      "createdAt": "2026-07-14T09:30:17.163Z",
+      "updatedAt": "2026-07-14T10:49:43.775Z"
+    },
+    {
+      "title": "New Task",
+      "description": "dashboard visualization",
+      "status": "archived",
+      "dueDate": "2026-07-15",
+      "priority": "high",
+      "assignee": "a",
+      "subtasks": [],
+      "id": "3wrepl20c",
+      "userId": "hx1oyn8ge",
+      "createdAt": "2026-07-14T09:58:35.460Z",
+      "updatedAt": "2026-07-14T10:43:39.044Z"
+    },
+    {
+      "title": "New Task",
+      "description": "ai chatbot",
+      "status": "execution",
+      "dueDate": "2026-07-15",
+      "priority": "medium",
+      "assignee": "a",
+      "subtasks": [
+        {
+          "id": "1y3x3y3f",
+          "title": "database",
+          "completed": true
+        },
+        {
+          "id": "jmtx7d7q",
+          "title": "ui",
+          "completed": false
+        }
+      ],
+      "id": "el4sw9zb6",
+      "userId": "hx1oyn8ge",
+      "createdAt": "2026-07-14T10:37:05.804Z",
+      "updatedAt": "2026-07-14T10:37:44.157Z"
+    },
+    {
+      "title": "New Task",
+      "description": "",
+      "status": "backlog",
+      "dueDate": "2026-07-15",
+      "priority": "medium",
+      "assignee": "a",
+      "subtasks": [
+        {
+          "id": "pt18i7os",
+          "title": "guardrails",
+          "completed": true
+        }
+      ],
+      "id": "efbatb5tj",
+      "userId": "hx1oyn8ge",
+      "createdAt": "2026-07-14T11:05:22.280Z",
+      "updatedAt": "2026-07-14T11:35:55.620Z"
+    }
+  ],
+  "chatHistory": [
+    {
+      "id": "1ppyzh6am",
+      "userId": "r8xny6jix",
+      "role": "user",
+      "content": "What should I work on next?",
+      "createdAt": "2026-07-14T09:45:16.045Z"
+    },
+    {
+      "id": "2ci9jl573",
+      "userId": "r8xny6jix",
+      "role": "assistant",
+      "content": "No urgent items. Pick any active task and make progress. You have 1 active tasks.",
+      "createdAt": "2026-07-14T09:45:16.435Z"
+    },
+    {
+      "id": "atoa430gg",
+      "userId": "r8xny6jix",
+      "role": "user",
+      "content": "What should I work on next?",
+      "createdAt": "2026-07-14T09:55:37.679Z"
+    },
+    {
+      "id": "rdp56lvba",
+      "userId": "r8xny6jix",
+      "role": "assistant",
+      "content": "You should work on **\"Test Task\"**. It's your only active task and is due soon, on **2026-07-15**. Focus on completing this task to stay on track.",
+      "createdAt": "2026-07-14T09:55:38.170Z"
+    },
+    {
+      "id": "h6vr886wt",
+      "userId": "r8xny6jix",
+      "role": "user",
+      "content": "Analyze my bottlenecks and give me tips",
+      "createdAt": "2026-07-14T09:56:07.689Z"
+    },
+    {
+      "id": "f0df8qett",
+      "userId": "r8xny6jix",
+      "role": "assistant",
+      "content": "**Bottleneck Analysis:**\nYour board has a single task in the **ACTIVE** column, with no tasks in **REVIEW** or **COMPLETED**. This suggests that you're not struggling with a high volume of tasks, but rather, you're just getting started.\n\n**Tips to Improve Workflow:**\n\n* Create more tasks to populate your **BACKLOG** and **PLANNING** columns, allowing you to plan and prioritize your work.\n* Focus on completing your **\"Test Task\"** to move it to the **COMPLETED** column and gain momentum.\n* Consider breaking down large tasks into smaller, manageable subtasks to avoid future bottlenecks.\n* As you progress, pay attention to task distribution across columns to identify potential bottlenecks and adjust your workflow accordingly.\n\nTo get started, consider adding a few tasks to your **BACKLOG** to give you a sense of direction and priority.",
+      "createdAt": "2026-07-14T09:56:08.630Z"
+    },
+    {
+      "id": "0zaz0stv1",
+      "userId": "hx1oyn8ge",
+      "role": "user",
+      "content": "What is urgent this week?",
+      "createdAt": "2026-07-14T09:58:56.844Z"
+    },
+    {
+      "id": "av4r6wi39",
+      "userId": "hx1oyn8ge",
+      "role": "assistant",
+      "content": "**Urgent Task this Week:**\nYou have a high-priority task, **\"New Task\"**, due on **2026-07-15**, which is **due soon**. It's currently in the **[PLANNING]** column and requires attention to meet the deadline. The task is related to **dashboard visualization**. \n\nConsider moving this task to the **[ACTIVE]** column to start working on it.",
+      "createdAt": "2026-07-14T09:58:57.516Z"
+    }
+  ]
+}
