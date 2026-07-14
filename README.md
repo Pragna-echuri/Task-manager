@@ -71,3 +71,5 @@ The entire application runs as a single Next.js project — no separate backend 
 - **Persistent chat history** — conversations are saved per user
 - **Quick-action suggestions** — predefined prompts for common questions
 - **Works offline** — local fallback analyzer provides useful responses without any API key
+
+I wasn't able to build a proper backend with a database so next time I will make sure to add proper backend for persistent data storing. I haven't worked much on full stack part so i have to understand the components and build it. I'll make sure to strengthen my backend skills. I also integrated an LLM based chatbot into the application and I would improve it by adding better constraints and guardrails for data safety.
